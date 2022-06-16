@@ -6,8 +6,7 @@ Al ser tan pequeño el alcance de los requerimientos propuestos no hace uso de t
 # Objetivo
 Se requiere un sistema de información que permita la creación de productos y la adición/sustracción de unidades del mismo. Debe permitir la trazabilidad de estos movimientos.
 
-# Requisitos
-Requerimientos funcionales:
+# Requerimientos funcionales:
 - Debe permitir la creación de productos y sus cantidades
 - Debe permitir la sustracción de cantidades de productos
 - Debe permitir llevar el histórico de ingresos y egresos
