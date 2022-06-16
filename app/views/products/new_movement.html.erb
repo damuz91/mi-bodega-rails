@@ -1,0 +1,50 @@
+<h1>Crear movimiento</h1>
+<div class="row">
+  <div class="col-lg-12">
+    <div class="card">
+      <table class="table">
+        <tr>
+          <td><b>Nombre:</b></td>
+          <td><%= @product.name %></td>
+        </tr>
+        <tr>
+          <td><b>Referencia:</b></td>
+          <td><%= @product.reference %></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</div>
+<div class="row mt-5">
+  <div class="col-lg-12">
+    <div class="card p-5">
+      <%= form_with model: @movement, url: create_movement_product_path(@product) do |f| %>
+      <% if @movement.errors.any? %>
+        <div class="alert alert-danger">
+          <ul>
+            <% @movement.errors.full_messages.each do |message| %>
+              <li><%= message %></li>
+            <% end %>
+          </ul>
+        </div>
+      <% end %>
+      <div class="form-group">
+        <%= f.label :movement_type, "Tipo de movimiento" %>
+        <%= f.select :movement_type, options_for_select(Movement.get_movement_types,@movement.movement_type), {}, {class: 'form-control'}  %>
+      </div>
+      <div class="form-group">
+        <%= f.label :quantity, "Cantidad" %>
+        <%= f.number_field :quantity, class: 'form-control' %>
+      </div>
+      <div class="form-group">
+        <%= f.label :comment, "Comentario" %>
+        <%= f.text_area :comment, class: 'form-control' %>
+      </div>
+      <div class="form-group">
+        <%= f.submit "Enviar", class: 'btn btn-primary' %>
+        <%= link_to "Cancelar", product_path(@product), class: 'btn btn-danger' %>
+      </div>
+      <% end %>
+    </div>
+  </div>
+</div>

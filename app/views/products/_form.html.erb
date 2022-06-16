@@ -1,0 +1,32 @@
+<div class="row">
+  <div class="col-lg-12">
+    <div class="card p-5">
+      <%= form_with model: @product do |f| %>
+        <% if @product.errors.any? %>
+          <div class="alert alert-danger">
+            <ul>
+              <% @product.errors.full_messages.each do |message| %>
+                <li><%= message %></li>
+              <% end %>
+            </ul>
+          </div>
+        <% end %>
+        <div class="form-group">
+          <%= f.label :name, "Nombre" %>
+          <%= f.text_field :name, class: "form-control", placeholder: 'Caja' %>
+        </div>
+        <div class="form-group">
+          <%= f.label :reference, "Referencia" %>
+          <%= f.text_field :reference, class: "form-control", placeholder: 'CJ001' %>
+        </div>
+        <div class="form-group">
+          <%= f.label :description, "Descripción" %>
+          <%= f.text_area :description, class: "form-control", placeholder: 'Aqui la descripción del producto' %>
+        </div>
+        <div class="form-group">
+          <%= f.submit "Enviar", class: 'btn btn-primary' %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>
