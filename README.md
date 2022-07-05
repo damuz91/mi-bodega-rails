@@ -23,13 +23,13 @@ Se requiere un sistema de información que permita la creación de productos y l
 - El sistema debe responder a las solicitudes del usuario en 'pocos' segundos
 - La visualización debe ser 'Responsive' para ser visualizada en diferentes dispositivos
 
-# Dependencias
+# Dependencias (Requisitos de ejecución)
 - Git, para clonar el proyecto, instalar según el sistema operativo (o descargar como ZIP)
 - Ruby 3.0.2, puede ser instalado con RVM (Mi favorito), Chruby, RBenv, o nativo
 - Gema bundler: `gem install bundler`
 
 # Instalación
-1. Clonar el proyecto: `git clone https://github.com/damuz91/mi-bodega`
+1. Clonar el proyecto: `git clone https://github.com/damuz91/mi-bodega-rails`
 2. Instalar las gemas `bundle install`
 3. Crear la base de datos: `rails db:create db:migrate`
 4. [Opcional] Popular la base de datos con los datos de pruena: `rails db:seed`
