@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  devise_for :users
   root "home#dashboard"
   resources :products do
     member do

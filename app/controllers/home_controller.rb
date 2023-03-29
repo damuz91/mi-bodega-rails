@@ -1,4 +1,7 @@
 class HomeController < ApplicationController
+
+  before_action :authenticate_user!
+
   def dashboard
     @latest_movements = Movement.last(10)
     # La versión SQL y la versión Rails de la misma consulta:
