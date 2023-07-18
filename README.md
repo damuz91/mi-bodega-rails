@@ -1,7 +1,11 @@
 # Readme
 Este proyecto es un ejemplo de cómo hacer una pequeña aplicación en Ruby on Rails 7.
 
+![Banner](https://estoyprogramando.co/wp-content/uploads/2023/04/Texto-del-parrafo-1-1-1.jpg)
+
 Al ser tan pequeño el alcance de los requerimientos propuestos no hace uso de todas las herramientas y posibilidades que tiene el framework, pero podría extenderse para hacer uso de todas
+
+Suscríbete a mi canal para más contenido de cómo iniciar en el mundo de la programación, además de encontrar contenido específico de programación en Ruby. ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCtshJw-uPwhwo-f6450ftQA?label=Suscribirme&style=social) 
 
 # Objetivo
 Se requiere un sistema de información que permita la creación de productos y la adición/sustracción de unidades del mismo. Debe permitir la trazabilidad de estos movimientos.
@@ -53,3 +57,6 @@ Una mejora futura puede ser pasar la DB a Postgresql
 - Usar DB postgres
 - Montar en Heroku
 - Agregar una gráfica de movimientos en el dashboard
+
+# Despliegue
+Ver video tutorial para desplegar la aplicación de Ruby on Rails en Ububuntu: https://www.youtube.com/c/estoyprogramando
