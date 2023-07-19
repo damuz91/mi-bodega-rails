@@ -52,11 +52,14 @@ Se utiliza una instancia de SQlite que se encuentra en el sistema de archivos de
 Una mejora futura puede ser pasar la DB a Postgresql
 
 # Mejoras futuras
-- Agregar autenticación
+- Agregar autenticación (Ver rama de devise)
 - Optimizar queries y refactorizar código
 - Usar DB postgres
 - Montar en Heroku
 - Agregar una gráfica de movimientos en el dashboard
 
 # Despliegue
-Ver video tutorial para desplegar la aplicación de Ruby on Rails en Ububuntu: https://www.youtube.com/c/estoyprogramando
+Ver video tutorial para desplegar la aplicación de Ruby on Rails en Ubuntu:
+[![Despliegue de Ruby on Rails en Ubuntu, Nginx, Puma en DigitalOcean
+](https://img.youtube.com/vi/1jJPGfWQ-rA/0.jpg)](https://www.youtube.com/watch?v=1jJPGfWQ-rA "Despliegue de Ruby on Rails en Ubuntu, Nginx, Puma en DigitalOcean
+")
