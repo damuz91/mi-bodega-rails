@@ -8,6 +8,8 @@ Al ser tan pequeño el alcance de los requerimientos propuestos no hace uso de t
 Suscríbete a mi canal para más contenido de cómo iniciar en el mundo de la programación, además de encontrar contenido específico de programación en Ruby. ![YouTube Channel Subscribers](https://img.shields.io/youtube/channel/subscribers/UCtshJw-uPwhwo-f6450ftQA?label=Suscribirme&style=social) 
 
 Ver video tutorial de este proyecto:
+
+
 [![¿Cómo HACER un sistema en Ruby on Rails 7? 🔥🔥 - 2023
 ](https://img.youtube.com/vi/JG0C2rtpCvI/0.jpg)](https://www.youtube.com/watch?v=JG0C2rtpCvI "¿Cómo HACER un sistema en Ruby on Rails 7? 🔥🔥 - 2023
 ")
