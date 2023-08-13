@@ -70,3 +70,31 @@ Ver video tutorial para desplegar la aplicación de Ruby on Rails en Ubuntu:
 [![Despliegue de Ruby on Rails en Ubuntu, Nginx, Puma en DigitalOcean
 ](https://img.youtube.com/vi/1jJPGfWQ-rA/0.jpg)](https://www.youtube.com/watch?v=1jJPGfWQ-rA "Despliegue de Ruby on Rails en Ubuntu, Nginx, Puma en DigitalOcean
 ")
+
+# Más contenido de programación
+
+Te invito a suscribirte en [mi canal de Youtube](https://www.youtube.com/@EstoyProgramando?sub_confirmation=1) donde publico constantemente más contenido gratuito acerca de programación y desarrollo de software.
+
+# Otros recursos:
+
+- ☁️ [Obtén $200 en crédito de DigitalOcean](https://m.do.co/c/d55e17bf64cc)
+- [📚 Construye tu propia experiencia - 12 Apps para construir portafolio](https://www.youtube.com/playlist?list=PLKdf6-2FoMDSytloROwdCQ9G2-wXcIzep)
+- [📚 Tips para conseguir trabajo como programador: ](https://youtu.be/GXvL6Lkm8o8)
+
+- [📚 Debo estudiar ingeniería de sistemas?](https://youtu.be/bi9QRJ6mjvs)
+
+- [📚 Estudiar programación en el 2023:](https://youtu.be/j0rf2vjGUpA)
+
+- [📚 Cómo aprendí a programar:](https://youtu.be/U_lWz4sEZ2o)
+
+- [📚 Por qué aprender Ruby?](https://youtu.be/Fjs5J2dKKO8)
+
+- [📚 Los programadores deben saber inglés:](https://youtu.be/qhkHvBQRtQE)
+
+- [📚 Curso de fundamentos de programación:](https://youtu.be/rBfmeUZPGK8)
+
+- [📚 Lista de reproducción de conceptos de desarrollo web:](https://www.youtube.com/watch?v=OuZAg9r7VzI&list=PLKdf6-2FoMDR7YxDrObdL8Z8wAyseMXsx)
+
+- [📚 Curso de introducción a la programación](https://youtu.be/9-wkgmd6oCg)
+
+- [👾 Únete a la comunidad en Discord](https://discord.gg/JppBGvx2jZ)
